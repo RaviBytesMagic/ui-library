@@ -1,0 +1,123 @@
+{
+  "src/atoms/Button.stories.tsx": {
+    "f": "Button.stories.tsx",
+    "p": "src/atoms/Button.stories.tsx",
+    "v": "v1",
+    "c": {
+      "cb7c3e": {
+        "user": "Hemakumar Venkata Ayyanna Kakaraparti",
+        "model": "claude-3-5-sonnet-v2@20241022",
+        "extraContext": "tbd",
+        "timestamp": 1757670904,
+        "hash": "7a81e81b",
+        "messageId": "system_30806150-8f9e-11f0-84df-8fcd11d0dd93",
+        "codeBlockId": "system_30806150-8f9e-11f0-84df-8fcd11d0dd93-Codeblock-9",
+        "isActive": true
+      }
+    },
+    "l": {
+      "0": {
+        "chunkId": "cb7c3e",
+        "hash": "c38a6a45",
+        "encoded": "import%20type%20%7B%20Meta,%20StoryObj%20%7D%20from%20'@storybook/react';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "cb7c3e",
+        "hash": "3f97527e",
+        "encoded": "import%20%7B%20Button%20%7D%20from%20'./Button';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "cb7c3e",
+        "hash": "118ab29e",
+        "encoded": "const%20meta:%20Meta%3Ctypeof%20Button%3E%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "cb7c3e",
+        "hash": "dc37e271",
+        "encoded": "title:%20'Atoms/Button',",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "cb7c3e",
+        "hash": "20a2047e",
+        "encoded": "component:%20Button,",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "cb7c3e",
+        "hash": "8225cc52",
+        "encoded": "tags:%20%5B'autodocs'%5D,",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "cb7c3e",
+        "hash": "903e6d47",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "cb7c3e",
+        "hash": "af74b7e1",
+        "encoded": "export%20default%20meta;",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "cb7c3e",
+        "hash": "3502cad1",
+        "encoded": "type%20Story%20=%20StoryObj%3Ctypeof%20Button%3E;",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "cb7c3e",
+        "hash": "97262a4c",
+        "encoded": "export%20const%20Primary:%20Story%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "cb7c3e",
+        "hash": "995c3cc6",
+        "encoded": "args:%20%7B",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "cb7c3e",
+        "hash": "ba0e61cc",
+        "encoded": "variant:%20'primary',",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "cb7c3e",
+        "hash": "d20e2295",
+        "encoded": "children:%20'Primary%20Button',",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "cb7c3e",
+        "hash": "e0024018",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "cb7c3e",
+        "hash": "910c242c",
+        "encoded": "export%20const%20Secondary:%20Story%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "cb7c3e",
+        "hash": "8c431fc0",
+        "encoded": "variant:%20'secondary',",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "cb7c3e",
+        "hash": "c09e4ba6",
+        "encoded": "children:%20'Secondary%20Button',",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

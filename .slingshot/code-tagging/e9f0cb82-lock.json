@@ -1,0 +1,69 @@
+{
+  "postcss.config.cjs": {
+    "f": "postcss.config.cjs",
+    "p": "postcss.config.cjs",
+    "v": "v1",
+    "c": {
+      "1df947": {
+        "user": "Hemakumar Venkata Ayyanna Kakaraparti",
+        "model": "claude-3-5-sonnet-v2@20241022",
+        "extraContext": "tbd",
+        "timestamp": 1757672979,
+        "hash": "4a27e07f",
+        "messageId": "system_362da0c0-8fc3-11f0-abe6-134e0b693e18",
+        "codeBlockId": "system_362da0c0-8fc3-11f0-abe6-134e0b693e18-Codeblock-3",
+        "isActive": true
+      }
+    },
+    "l": {
+      "0": {
+        "chunkId": "1df947",
+        "hash": "f06f794c",
+        "encoded": "const%20tailwindcss%20=%20require('tailwindcss');",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "1df947",
+        "hash": "36301d36",
+        "encoded": "const%20autoprefixer%20=%20require('autoprefixer');",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "1df947",
+        "hash": "c8140940",
+        "encoded": "module.exports%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "1df947",
+        "hash": "f34b4e42",
+        "encoded": "plugins:%20%5B",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "1df947",
+        "hash": "7929c598",
+        "encoded": "tailwindcss('./tailwind.config.js'),",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "1df947",
+        "hash": "3c6cd3ff",
+        "encoded": "autoprefixer",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "1df947",
+        "hash": "4494f58d",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "1df947",
+        "hash": "af89cfeb",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

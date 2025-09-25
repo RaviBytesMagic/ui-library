@@ -1,0 +1,63 @@
+{
+  "src/index.ts": {
+    "f": "index.ts",
+    "p": "src/index.ts",
+    "v": "v1",
+    "c": {
+      "09987f": {
+        "user": "Hemakumar Venkata Ayyanna Kakaraparti",
+        "model": "claude-3-5-sonnet-v2@20241022",
+        "extraContext": "tbd",
+        "timestamp": 1757671479,
+        "hash": "7234e524",
+        "messageId": "system_b2bc5d60-8fbf-11f0-abe6-134e0b693e18",
+        "codeBlockId": "system_b2bc5d60-8fbf-11f0-abe6-134e0b693e18-Codeblock-3",
+        "isActive": true
+      }
+    },
+    "l": {
+      "0": {
+        "chunkId": "09987f",
+        "hash": "000f12b1",
+        "encoded": "//%20Import%20styles",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "09987f",
+        "hash": "92b5a727",
+        "encoded": "import%20'./styles/tailwind.css';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "09987f",
+        "hash": "be87da27",
+        "encoded": "//%20Export%20components",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "09987f",
+        "hash": "af2e0700",
+        "encoded": "export%20%7B%20Button%20%7D%20from%20'./atoms/Button/Button';",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "09987f",
+        "hash": "0649f8e3",
+        "encoded": "//%20Export%20types",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "09987f",
+        "hash": "5d81be20",
+        "encoded": "export%20type%20%7B%20ButtonProps%20%7D%20from%20'./atoms/Button/Button';",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "09987f",
+        "hash": "f7a70640",
+        "encoded": "//%20Add%20more%20component%20exports%20as%20they%20are%20created",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

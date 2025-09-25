@@ -1,0 +1,9 @@
+# Add files here to ignore them from prettier formatting
+/dist
+/coverage
+package-lock.json
+node_modules
+CHANGELOG.md
+/.nx/cache
+.next
+/.nx/workspace-data

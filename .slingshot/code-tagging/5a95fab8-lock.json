@@ -1,0 +1,129 @@
+{
+  "tsconfig.json": {
+    "f": "tsconfig.json",
+    "p": "tsconfig.json",
+    "v": "v1",
+    "c": {
+      "d624ab": {
+        "user": "Hemakumar Venkata Ayyanna Kakaraparti",
+        "model": "claude-3-5-sonnet-v2@20241022",
+        "extraContext": "tbd",
+        "timestamp": 1757673358,
+        "hash": "f8216b62",
+        "messageId": "system_d9dd9ea0-8fc3-11f0-abe6-134e0b693e18",
+        "codeBlockId": "system_d9dd9ea0-8fc3-11f0-abe6-134e0b693e18-Codeblock-2",
+        "isActive": true
+      }
+    },
+    "l": {
+      "0": {
+        "chunkId": "d624ab",
+        "hash": "47009686",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "d624ab",
+        "hash": "c1221f13",
+        "encoded": "%22compilerOptions%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "d624ab",
+        "hash": "4d5b8e8c",
+        "encoded": "%22target%22:%20%22es5%22,",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "d624ab",
+        "hash": "1e57401b",
+        "encoded": "%22module%22:%20%22esnext%22,",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "d624ab",
+        "hash": "ab640d84",
+        "encoded": "%22lib%22:%20%5B%22dom%22,%20%22esnext%22%5D,",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "d624ab",
+        "hash": "aa5c9159",
+        "encoded": "%22jsx%22:%20%22react%22,",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "d624ab",
+        "hash": "f89868d9",
+        "encoded": "%22moduleResolution%22:%20%22node%22,",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "d624ab",
+        "hash": "5ed7cec7",
+        "encoded": "%22esModuleInterop%22:%20true,",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "d624ab",
+        "hash": "52c75da8",
+        "encoded": "%22skipLibCheck%22:%20true,",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "d624ab",
+        "hash": "8138f53d",
+        "encoded": "%22declaration%22:%20true,",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "d624ab",
+        "hash": "5f8986d3",
+        "encoded": "%22declarationDir%22:%20%22./dist/types%22,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "d624ab",
+        "hash": "b3ad7e2d",
+        "encoded": "%22outDir%22:%20%22./dist%22,",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "d624ab",
+        "hash": "066e3232",
+        "encoded": "%22strict%22:%20true,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "d624ab",
+        "hash": "01d97d62",
+        "encoded": "%22forceConsistentCasingInFileNames%22:%20true",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "d624ab",
+        "hash": "aaa19923",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "d624ab",
+        "hash": "788250dd",
+        "encoded": "%22include%22:%20%5B%22src%22%5D,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "d624ab",
+        "hash": "dfa5e6ae",
+        "encoded": "%22exclude%22:%20%5B%22node_modules%22,%20%22dist%22%5D",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "d624ab",
+        "hash": "76477189",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
