@@ -27,30 +27,6 @@
         "hash": "6a3f2143",
         "encoded": "%7D",
         "prevChunkIds": []
-      },
-      "47": {
-        "chunkId": "88a9a1",
-        "hash": "5d6a6977",
-        "encoded": "%22jest%22:%20%7B",
-        "prevChunkIds": []
-      },
-      "48": {
-        "chunkId": "88a9a1",
-        "hash": "7d04c217",
-        "encoded": "%22transform%22:%20%7B",
-        "prevChunkIds": []
-      },
-      "49": {
-        "chunkId": "88a9a1",
-        "hash": "555b17fe",
-        "encoded": "%22%5E.+%5C%5C.jsx?$%22:%20%22babel-jest%22",
-        "prevChunkIds": []
-      },
-      "50": {
-        "chunkId": "88a9a1",
-        "hash": "6a5bdc1a",
-        "encoded": "%7D",
-        "prevChunkIds": []
       }
     }
   }
