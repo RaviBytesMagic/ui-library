@@ -81,9 +81,7 @@ test-results
 cucumber-report
 
 # Slingshot Config
-.slingshot.config.json
-.slingshot.config.js
-.slingshot.agents.config.js
+.slingshot
 
 vite.config.*.timestamp*
 vitest.config.*.timestamp*
