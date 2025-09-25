@@ -20,7 +20,7 @@
     "build:types": "tsc --project tsconfig.json",
     "build:rollup": "rollup -c",
     "build": "npm run clean && npm run build:types && npm run build:rollup",
-    "lint": "eslint ",
+    "lint": "eslint 'src/**/*.{ts,tsx,js,jsx}' --max-warnings=0",
     "lint:fix": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix",
     "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,css,scss,md}'",
     "test": "jest",
