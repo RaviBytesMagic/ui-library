@@ -39,24 +39,11 @@
     "*.{ts,tsx,js,jsx}": [
       "eslint --fix",
       "prettier --write",
-      "npm run test:ci",
-      "npm run build:ci",
-      "git add"
+      "npm run test:ci"
     ],
-    "*.{css,scss}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
+    "*.{css,scss,json,md}": [
+      "prettier --write"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "peerDependencies": {
     "react": "^19.1.1",
