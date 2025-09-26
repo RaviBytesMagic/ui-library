@@ -1,6 +1,14 @@
-import '../src/theme/theme.css'
+import type { Preview } from '@storybook/react-webpack5'
 
-export const parameters = {
-  actions: { argTypesRegex: '^on[A-Z].*' },
-  controls: { expanded: true }
+const preview: Preview = {
+  parameters: {
+    controls: {
+      matchers: {
+        color: /(background|color)$/i,
+        date: /Date$/i
+      }
+    }
+  }
 }
+
+export default preview
