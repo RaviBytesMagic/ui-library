@@ -1,4 +1,5 @@
-import type { Preview } from '@storybook/react-webpack5'
+import type { Preview } from '@storybook/react-vite'
+import '../src/theme/theme.css'
 
 const preview: Preview = {
   parameters: {
@@ -6,7 +7,8 @@ const preview: Preview = {
       matchers: {
         color: /(background|color)$/i,
         date: /Date$/i
-      }
+      },
+      expanded: true
     }
   }
 }

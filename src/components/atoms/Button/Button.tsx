@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import * as React from 'react'
+import 'tailwindcss'
 
 type ButtonVariant = 'primary' | 'secondary' | 'outline' | 'ghost'
 type ButtonSize = 'sm' | 'md' | 'lg'
@@ -30,19 +31,22 @@ const sizeClasses: Record<ButtonSize, string> = {
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ variant = 'primary', size = 'md', className, disabled, children, ...props }, ref) => {
     return (
-      <button
-        ref={ref}
-        disabled={disabled}
-        className={clsx(
-          'inline-flex items-center justify-center font-medium transition-colors focus:ring-2 focus:ring-offset-2 focus:outline-none',
-          variantClasses[variant],
-          sizeClasses[size],
-          className
-        )}
-        {...props}
-      >
-        {children}
-      </button>
+      <>
+        <div className="bg-primary border-red-500 text-4xl font-bold">Check JIT</div>
+        <button
+          ref={ref}
+          disabled={disabled}
+          className={clsx(
+            'inline-flex items-center justify-center font-medium transition-colors focus:ring-2 focus:ring-offset-2 focus:outline-none',
+            variantClasses[variant],
+            sizeClasses[size],
+            className
+          )}
+          {...props}
+        >
+          {children}
+        </button>
+      </>
     )
   }
 )

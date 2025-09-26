@@ -1,10 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 @layer base {
   :root {
     --color-primary: 29 78 216;
     --color-secondary: 234 179 8;
   }
+}
+
+body {
+  border: 5px solid red;
 }

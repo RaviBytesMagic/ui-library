@@ -2,8 +2,8 @@
 import './theme/theme.css'
 
 // Hooks & Providers
-export { ThemeProvider } from './theme/ThemeProvider'
-export { useTheme } from './theme/useTheme'
+export { ThemeProvider } from './utils/ThemeProvider'
+export { useTheme } from './utils/useTheme'
 
 // Export components
 export { Button } from './components/atoms/Button/Button'
