@@ -1,6 +1,14 @@
-// Export theme
-export { default as theme } from './theme/theme'
+// Core
+import './theme/theme.css'
 
-// Export all components
-export * from './components/atoms/Button'
-// Add more component exports as you create them
+// Hooks & Providers
+export { ThemeProvider } from './theme/ThemeProvider'
+export { useTheme } from './theme/useTheme'
+
+// Export components
+export { Button } from './components/atoms/Button/Button'
+export { Typography } from './components/atoms/Typography/Typography'
+
+// Export types
+export type { ButtonProps } from './components/atoms/Button/Button'
+export type { TypographyProps } from './components/atoms/Typography/Typography'

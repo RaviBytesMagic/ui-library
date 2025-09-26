@@ -86,3 +86,6 @@ cucumber-report
 vite.config.*.timestamp*
 vitest.config.*.timestamp*
 .cursor/rules/nx-rules.mdc
+
+*storybook.log
+storybook-static

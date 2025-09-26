@@ -14,16 +14,13 @@
   },
   "files.exclude": {
     "**/.git": true,
-    "**/node_modules": true,
+    "**/node_modules": false,
     "**/*.log": true,
     "**/.next/**": true,
     "**/tmp/**": true,
     "**/coverage/**": true,
-    "**/dist/**": true,
+    "**/dist/**": false,
     "**/.nx/**": true
-  },
-  "[svg]": {
-    "editor.defaultFormatter": "jock.svg"
   },
   "editor.tabSize": 2,
 
@@ -32,7 +29,15 @@
     "strings": true,
     "other": true
   },
-  "[feature]": {
-    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "html",
+    "postcss": "css"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "(?:'|\")([A-Za-z0-9-:/]+)(?:'|\")"]
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
   }
 }
